@@ -70,7 +70,6 @@ margin-left: auto;
 .right-side{
 	background: white;
 	width: calc(100% - 320px);
-	padding-top: 20px ;
 	color: #000;
 
 }
@@ -84,7 +83,7 @@ margin-left: auto;
 	border-bottom: 1px solid grey;
 	font-weight: bold;
 	font-size: 24px;
-	padding-top: 20p;
+	padding-top: 20px;
 }
 .right-side-content-item .content li{
 	display: flex;
@@ -93,10 +92,12 @@ margin-left: auto;
 .right-side-content-item .content .content-text{
 margin-left: auto;
 }
-.content-info{
-	padding-bottom: 10px;
-}
+
 .content-info{
 	padding-bottom: 10px;
 	margin-top: 8px;
+	width: 100%;
+}
+li{
+	flex-wrap: wrap;
 }
