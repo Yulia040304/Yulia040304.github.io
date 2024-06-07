@@ -40,13 +40,15 @@ H1 {
 	width: 200px;
 	border: 1px solid #bbb;
 	position: relative;
+	 padding: 10px ;
 }
 .catalog-title{
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	border-bottom: 1px solid #bbb;
+   border-bottom: 1px solid #bbb;
 }
+
 .catalog-content{
 	display: flex;
 	justify-content: center;
