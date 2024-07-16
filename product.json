@@ -1,0 +1,80 @@
+{
+  "books" : [
+    {
+      "id" : 0,
+      "category": "математика",
+      "imageURL" : "https://domigr.com.ua/image/cache/data/Banda_Umnikov/Kotosovy/kotosovy-0-501x501.jpg" ,
+      "imageALT": "котосови",
+      "title" : "Котосови",
+      "productPageURl" : "https://yulia040304.github.io/" ,
+      "reqularPrice" : null,
+      "discount" : null,
+      "count" : 0,
+      "badges" : [
+        {
+        "new" : true
+      },
+      {
+        "hit" : false
+      }
+      ]
+    },
+        {
+          "id" : 1,
+          "category": "подарунок",
+          "imageURL" : "https://igrarium.com.ua/image/cache/catalog/data/banda-umnikov/nabor-vsjo-i-srazu-banda-umnikov/igrarium-nabor-vsjo-i-srazu-banda-umnikov-0-1000x1000.jpg"  ,
+          "imageALT": "набір розумника",
+          "title" : "Набір розумника",
+          "productPageURl" : "https://yulia040304.github.io/" ,
+          "reqularPrice" : 210,
+          "discount" : 190,
+          "count" : 20,
+          "badges" : [
+            {
+            "new" : false
+          },
+          {
+            "hit" : false
+           }
+           ]
+    },
+     {
+          "id" : 2,
+          "category": "усний рахунок",
+          "imageURL" : "https://iqgra.com.ua/image/cache/catalog/nastolnye-igry/obuchayushie/banda-umnikov-turbokomplekt-1-600x600.jpg"  ,
+          "imageALT": "турборахунок",
+          "title" : "Турборахунок",
+          "productPageURl" : "https://yulia040304.github.io/" ,
+          "reqularPrice" : 320,
+          "discount" : null,
+          "count" : 20,
+          "badges" : [
+            {
+            "new" : false
+            },
+            {
+            "hit" : true
+            }
+            ]
+    },
+    {
+          "id" : 3,
+          "category": "букви та читання",
+          "imageURL" : "https://childdevelop.com.ua/doc/images/news/32/3219/cross-animals_ukr_ua_m.png"  ,
+          "imageALT": "тваринобукви",
+          "title" : "Тваринобукви",
+          "productPageURl" : "https://yulia040304.github.io/" ,
+          "reqularPrice" : 450,
+          "discount" : null,
+          "count" : 20,
+          "badges" : [
+            {
+            "new" : false
+            },
+            {
+            "hit" : true
+            }
+            ]
+    }
+  ]
+}
