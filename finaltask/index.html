@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Base layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <head>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrap">
+        <header>
+            <div class="container">
+                <div class="topbar">
+                    <div class="row">
+                        <div class="column-1-3">
+                            <div class="available">
+                                <p>Available 24/7 at <span>(405) 555-0128</span></p>
+                            </div>
+                            <div class="menu-secondary">
+                                <ul>
+                                    <li>Delivery & returns</li>
+                                     <li>Track order</li>
+                                      <li>Blog</li>
+                                       <li>Contacts</li>
+                                </ul>
+                            </div>
+                            <div class="lang">
+                               <i class="fa-solid fa-flag-usa"></i><p> Eng / $</p> <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div class="account">
+                               <i class="fa-solid fa-user"></i><p>  Log in  / Register</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar">
+                    <span class="logo-title">
+                        Create <i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-left"></i>
+                    </span>
+                    <div class="main-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Girl</a></li>
+                                <li><a href="#">Boys</a></li>
+                                <li><a href="#" class="sale-btn">Sale</a></li>
+                            </ul>
+                        </nav>
+                         <form class="search-form" action="/search" method="GET">
+                        <input type="text" name="query" placeholder="Search..." required>
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    <div class="toolbar">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+            <section class="special-offers">
+            <div class="carousel">
+                <i class="fa-solid fa-chevron-left"  id="prev-slide"></i>
+                  <div class="carousel-content">
+                <div class="slide" id="slide1"></div>
+                <div class="slide" id="slide2"></div>
+                <div class="slide" id="slide3"></div>
+            </div>
+                <p>Up to 70% Off. <a href="#">Shop our latest sale styles</a></p>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+        <section class="hero-slider">
+            <div class="collection-item">
+                <div class="text-content">
+                    <div class="text-title">
+                        <p>new collection</p>
+                    </div>
+                    <div class="text-subtitle">
+                        <p>menswear 2022</p>
+                    </div>
+                </div>
+                <div class="content-btn">
+                    <button class="shop-sale">Shop sale</button>
+                    <button class="buttom-shop">Shop the menswear</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="top-categories">
+            <div class="categories">
+                <div class="row">
+                    <div class="categories col-1-3">
+                        <a href="#"><img class="categories-img" src="images/categorieswomen.jpg"></a>
+                        <a href="#"><img class="categories-img" src="images/categoriesmen.jpg"></a>
+                        <a href="#"><img class="categories-img" src="images/categorieskids.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ <section class="new-arrivals">
+    <div class="arrivals" id="arrivals-container">
+       
+    </div>
+</section>
+
+
+        <section class="banners">
+            <div class="banners">
+                <div class="row">
+                    <div class="block block1">
+                        <div class="text-content">
+                       <div class="block-title">
+                        <p>summer collection</p>
+                       </div>
+                       <div class="block-subtitle">
+                        <h2>Sale Up to 70%</h2>
+                       </div>
+                       <div class="content-btn">
+                    <button class="new-price">Explore new price</button>
+                    </div>
+                   </div>
+                    </div>
+                    <div class="block block2">
+                             <div class="text-content">
+                       <div class="block-title">
+                        <p>deal of the week</p>
+                       </div>
+                       <div class="block-subtitle">
+                        <h2>Stay Warm With Our<br>
+                         New Sweaters </h2>
+                       </div>
+                       <div class="content-btn">
+                    <button class="shop-now">Shop now</button>
+                    </div>
+                   </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="block block3">
+                         <div class="text-content">
+                       <div class="block-title">
+                        <p>new collection</p>
+                       </div>
+                       <div class="block-subtitle">
+                        <h2>Shoes & Bags<br>
+                        autumn / winter 2020 </h2>
+                       </div>
+                       <div class="content-btn">
+                    <button class="see-offers">See offers --></button>
+                    </div>
+                   </div>
+                    </div>
+                    <div class="block block4">
+                           <div class="text-content">
+                       <div class="block-title">
+                        <p>For All new Email Subscribers</p>
+                       </div>
+                       <div class="block-subtitle">
+                        <h2>Get 5% Off & Free Delivery </h2>
+                       </div>
+
+                       <div class="email-form">
+                      <form class="email-form" action="/search" method="GET">
+                        <input type="text" name="query" placeholder="Your working email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <p>*Sign up to be the first to hear about exclusive deals, special<br> offers and upcoming collections.</p>
+                   </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+               <section class="popular-categorie">
+            <div class="popular-categorie">
+                <h1>Popular categories</h1>
+                <div class="row popular-categories-row">
+                    <div class="col-1-6">
+                        <div class="category-item">
+                            <a href="#"><img class="categorie-img" src="images/popular1.jpg"></a>
+                            <p>Tops</p>
+                        </div>
+                        <div class="category-item">
+                            <a href="#"><img class="categorie-img" src="images/popular2.jpg"></a>
+                            <p>T-shirts</p>
+                        </div>
+                        <div class="category-item">
+                            <a href="#"><img class="categorie-img" src="images/popular3.jpg"></a>
+                            <p>Caps</p>
+                        </div>
+                        <div class="category-item">
+                            <a href="#"><img class="categorie-img" src="images/popular4.jpg"></a>
+                            <p>Sandals</p>
+                        </div>
+                        <div class="category-item">
+                            <a href="#"><img class="categorie-img" src="images/popular5.jpg"></a>
+                            <p>Jackets</p>
+                        </div>
+                        <div class="category-item">
+                            <a href="#"><img class="categorie-img" src="images/popular6.jpg"></a>
+                            <p>Coats</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section class="trending">
+    <div class="trending-header">
+         <h1 class="trending-title">Trending now</h1>
+        <div class="trending-nav">
+            <p><i class="fa-solid fa-arrow-left"></i></p>
+            <p><i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+    </div>
+    <div class="trending-now">
+        <div class="row trending-row">
+            <div class="col-1-3">
+                <div class="trending-item">
+                    <div class="image-container">
+                        <a href="#"><img class="trending-img" src="images/trending1.jpg" alt="Shirt with insertion lace trims"></a>
+                        <div class="stars">
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                        </div>
+                        <div class="like-trend">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <p>Shirt with insertion lace trims</p>
+                    <h4 class="trending-price">$49.95</h4>
+                </div>
+                <div class="trending-item">
+                    <div class="image-container">
+                        <a href="#"><img class="trending-img" src="images/trending2.jpg" alt="Chrono watch with blue leather belt"></a>
+                        <div class="stars">
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star "></i>
+                        </div>
+                        <div class="like-trend">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <p>Chrono watch with blue leather belt</p>
+                    <h4 class="trending-price">$120.60</h4>
+                </div>
+                <div class="trending-item">
+                    <div class="image-container">
+                        <a href="#"><img class="trending-img" src="images/trending3.jpg" alt="Check coat with colour contrast"></a>
+                        <div class="like-trend">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <p>Check coat with colour contrast</p>
+                    <h4 class="trending-price">$183.45</h4>
+                </div>
+            </div>
+        </div>
+        <button class="explore-sale">Explore top sales</button>
+    </div>
+</section>
+
+
+
+
+<section class="sale">
+    <div class="sale-header">
+        <h1 class="sale-title">Sale up to 70%</h1>
+        <div class="sale-nav">
+            <p><i class="fa-solid fa-arrow-left"></i></p>
+            <p><i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+    </div>
+    <div class="sale-now">
+        <div class="row sale-row">
+            <div class="col-1-3">
+                <div class="sale-item">
+                    <div class="image-container-sale">
+                        <a href="#"><img class="sale-img" src="images/sale1.jpg" alt="Shirt with insertion lace trims"></a>
+                        <div class="stars-sale">
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star "></i>
+                        </div>
+                        <div class="like-sale">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="titles">
+                        <div class="title">Leather crossbody bag with gold hardware</div>
+                        <div class="subtitle-discount">
+                             <span class="discount-price">$89.50</span>
+                            <span class="subtitle-sale">$179.00</span>
+
+                        </div>
+                    </div>
+                           <div class="sale-item-details">
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                        <button class="size-btn">XXL</button>
+                    </div>
+                    <div class="colors">
+                        <button class="color-btn color-one"></button>
+                        <button class="color-btn color-two"></button>
+                        <button class="color-btn color-three"></button>
+                    </div>
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                </div>
+                </div>
+                <div class="sale-item">
+                    <div class="image-container-sale">
+                        <a href="#"><img class="sale-img" src="images/sale2.jpg" alt="Chrono watch with blue leather belt"></a>
+                        <div class="like-sale">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="titles">
+                        <div class="title">Skinny push-up jeans</div>
+                        <div class="subtitle-discount">
+                             <span class="discount-price">$40.00</span>
+                            <span class="subtitle-sale">$80.00</span>
+
+                        </div>
+                    </div>
+                           <div class="sale-item-details">
+                    <div class="sizes">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                        <button class="size-btn">XXL</button>
+                    </div>
+                    <div class="colors">
+                        <button class="color-btn color-one"></button>
+                        <button class="color-btn color-two"></button>
+                        <button class="color-btn color-three"></button>
+                    </div>
+                    <button class="add-to-cart"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                </div>
+                </div>
+                <div class="sale-item">
+                    <div class="image-container-sale">
+                        <a href="#"><img class="sale-img" src="images/sale3.jpg" alt="Check coat with colour contrast"></a>
+                        <div class="stars-sale">
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                        </div>
+                        <div class="like-sale">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="titles">
+                        <div class="title">Wide heel suede ankle boots</div>
+                        <div class="subtitle-discount">
+                             <span class="discount-price">$119.16</span>
+                            <span class="subtitle-sale">$148.95</span>
+                        </div>
+                    </div>
+                          <div class="sale-item-details">
+                    <div class="sizes">
+                        <button class="size-btn">36</button>
+                        <button class="size-btn">37</button>
+                        <button class="size-btn">38</button>
+                        <button class="size-btn">39</button>
+                        <button class="size-btn">40</button>
+                    </div>
+                    <div class="colors">
+                        <button class="color-btn color-one"></button>
+                        <button class="color-btn color-two"></button>
+                        <button class="color-btn color-three"></button>
+                    </div>
+                    <button class="add-to-cart"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <button class="explore-sale">See all sale products</button>
+    </div>
+</section>
+
+
+
+
+<section class="mobile-app">
+    <div class="mobile">
+         <a href="#"><img class="mobile-img" src="images/image1.png"></a>
+       </div> 
+    <div class="mobile-content">
+        <p>Enjoy mobile shopping with our Createx<br>
+         Store App!</p>
+
+         <a href="#"><img class="app-bottom" src="images/app-store.png"></a>
+        
+        <a href="#"><img class="app-bottom" src="images/google-play.png"></a>
+    
+    </div>
+</section>
+
+<section class="services">
+    <div class="services-container">
+        <div class="services-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            <p>Fast Worldwide Shipping</p>
+            <h4 class="services-text">Get free shipping over $250</h4>
+        </div>
+        <div class="services-item">
+            <i class="fa-solid fa-headset"></i>
+            <p>24/7 Customer Support</p>
+            <h4 class="services-text">Friendly 24/7 customer support</h4>
+        </div>
+        <div class="services-item">
+            <i class="fa-solid fa-shield"></i>
+            <p>Money Back Guarantee</p>
+            <h4 class="services-text">We return money within 30 days</h4>
+        </div>
+        <div class="services-item">
+            <i class="fa-regular fa-credit-card"></i>
+            <p>Secure Online Payment</p>
+            <h4 class="services-text">Accept all major credit cards</h4>
+        </div>
+    </div>
+</section>
+
+<section class="instagram">
+    <div class="insta-container">
+        <div class="insta-text-container">
+            <p>Follow us on Instagram</p>
+            <h4 class="insta-text">@createx_store</h4>
+             <button class="explore-sale">Explore top sales</button>
+        </div>
+        <div class="insta-item-img">
+            <img src="images/insta1.jpg">
+        </div>
+        <div class="insta-item-img">
+            <img src="images/insta2.jpg">
+        </div>
+        <div class="insta-item-img">
+            <img src="images/insta3.jpg">
+        </div>
+    </div>
+
+</section>
+
+<section class="fashion-blog">
+    <div class="fashion-blog-countainer">
+        <div class="fashion">
+            <div class="blog-title">
+                <h1>Fashion blog</h1>
+                <button class="blog-btn">Explore top sales</button>
+            </div>
+        </div>
+        <div class="blog-content">
+            <div class="right-blog">
+                <img class="blog-img" src="images/blog1.jpg">
+                <div class="blog-item">
+                    <p>Bag Trends for Summer 2020</p>
+                     <div class="fashion-item">
+                        <p class="blog-type">Fashion</p>
+                        <p class="blog-date">August 24, 2020</p>
+                        <p class="blog-comments">No comments</p>
+                    </div>
+                    <h4 class="blog-text">Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus. Tincidunt aliquet sit vel, venenatis nulla. Integer bibendum turpis convallis...</h4>
+                </div>
+            </div>
+            <div class="left-blog">
+                <img class="blog-img" src="images/blog2.jpg">
+                <div class="blog-item">
+                    <p>Bag Trends for Summer 2020</p>
+                    <div class="fashion-item">
+                        <p class="blog-type">Fashion</p>
+                        <p class="blog-date">August 24, 2020</p>
+                        <p class="blog-comments">No comments</p>
+                    </div>
+                    <h4 class="blog-text">Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus. Tincidunt aliquet sit vel, venenatis nulla. Integer bibendum turpis convallis...</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="brands">
+    <div class=" row brands">
+        <div class="col-1-6">
+         <img src="images/brand1.png">
+         <img src="images/brand2.png">
+         <img src="images/brand3.png">
+         <img src="images/brand4.png">
+         <img src="images/brand4.png">
+         <img src="images/brand6.png">
+        </div>
+    </div>
+</section>
+
+<section class="subscribe">
+    <div class="subscribe-container">
+             <div class="subscribe-right">
+        <div class="container-form">
+            <h1>Subscribe for updates</h1>
+            <h2>Subscribe for exclusive early sale access and new arrivals.</h2>
+            <div class="buttons-group">
+                <div class="button">Woman</div>
+                <div class="button">Men</div>
+                <div class="button">Girl</div>
+                <div class="button">Boy</div>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Enter your email" class="form-input" required>
+                <button class="submit-btn">Submit</button>
+            </div>
+            <label class="agree-label">
+        <input type="checkbox" class="agree-checkbox" required>
+        I agree to the terms and conditions
+    </label>
+        </div>
+    </div> 
+        <div class="subscribe-left">
+            <img src="images/image2.png">
+        </div>
+
+    </div>
+</section>
+
+  <section class="foother">
+        <div class="foother-group">
+            <div class="row">
+                <div class="col-1-4">
+                    <div class="help">
+                        <h1>Help</h1>
+                        <ul>
+                            <li>Delivery & returns</li>
+                            <li>FAQ</li>
+                            <li>Track order</li>
+                            <li>Contacts</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                    <div class="shop">
+                        <h1>Shop</h1>
+                        <ul>
+                            <li>New arrivals</li>
+                            <li>Trending now</li>
+                            <li>Sales</li>
+                            <li>Brands</li>
+                        </ul>
+                    </div>
+                    <div class="get-in-touch">
+                        <h1>Get in touch</h1>
+                        <ul>
+                            <li><span>Email:</span> example@example.com</li>
+                            <li><span>Phone:</span> +1234567890</li>
+                        </ul>
+                        <div class="app-images">
+                            <img src="images/facebook.png" alt="Facebook">
+                            <img src="images/instagram.png" alt="Facebook">
+                            <img src="images/twiter.png" alt="Facebook">
+                            <img src="images/youtobe.png" alt="Facebook">
+                            <img src="images/pinterest.png" alt="Facebook">
+                        </div>
+                    </div>
+                    <div class="download-our-app">
+                        <h1>Download our app</h1>
+                        <div class="app-images">
+                            <img src="images/app-store.png" alt="App Store">
+                            <img src="images/google-play.png" alt="App Store">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="divired">
+            <p>© All rights reserved. Made with <i class="fa-regular fa-heart"></i> by Createx Studio </p>
+            <a href="#">Go to top</a>
+        </div>
+        </div>
+    </section>
+     <script src="script/script.js"></script>
+    </div>
+</body>
+</html>

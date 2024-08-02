@@ -1,0 +1,54 @@
+{
+  "newArrivals": {
+    "title": "New arrivals",
+    "textContent": {
+      "paragraph": "Check out our latest arrivals for the upcoming season",
+      "link": {
+        "text": "See the collection here",
+        "href": "#"
+      }
+    },
+    "products": [
+      {
+        "image": "images/arivalscap.jpg",
+        "alt": "Product Image 1",
+        "stars": 4,
+        "like": false,
+        "title": "Black and white sport cap",
+        "price": "$18.15"
+      },
+      {
+        "image": "images/arivalsglass.jpg",
+        "alt": "Product Image 2",
+        "stars": 2,
+        "like": false,
+        "title": "Metal bridge sunglasses",
+        "price": "$89.95"
+      },
+      {
+        "image": "images/arivalsbody.jpg",
+        "alt": "Product Image 3",
+        "stars": 5,
+        "like": false,
+        "title": "Green baby romper",
+        "price": "$20.40"
+      },
+      {
+        "image": "images/arivalsjeans.jpg",
+        "alt": "Product Image 4",
+        "stars": 5,
+        "like": false,
+        "title": "Mid-rise slim cropped fit jeans",
+        "price": "$40.00"
+      },
+      {
+        "image": "images/arivalsrings.jpg",
+        "alt": "Product Image 5",
+        "stars": 5,
+        "like": false,
+        "title": "Red dangle earrings",
+        "price": "$29.95"
+      }
+    ]
+  }
+}
